@@ -2,3 +2,9 @@
 
 [secret]
 #empty value for secret values
+
+protagonist=Jackie Chan
+
+new_people =  self.config.get("secret").get("protagonist")
+if new_people is not None and new_people is not "":
+    joke_msg = joke_msg.replace('Chuck Norris',new_people)
