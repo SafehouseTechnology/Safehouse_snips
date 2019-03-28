@@ -65,16 +65,6 @@ def askSafehouse_callback(self, hermes, intent_message): #terminate the session 
 
 
 
-if not
-continue
-hermes.publish_end_session(intent_message.session_id, "")
-
-
-   
-
-
-
-
 
 
 
