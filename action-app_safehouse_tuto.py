@@ -1,8 +1,7 @@
 #!/usr/bin/env python2
 
 #- * -coding: utf - 8 - * -
-all: action-app_safehouse_tuto
-    chmod 755 action-app_safehouse_tuto
+
   from snipsTools
 import requests
 import SnipsConfigParser
