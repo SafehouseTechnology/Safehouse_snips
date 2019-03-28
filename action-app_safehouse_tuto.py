@@ -61,7 +61,7 @@ def askSafehouse_callback(self, hermes, intent_message): #terminate the session 
                                                                 .json().get("value"))
 
     # if need to speak the execution result by tts
-    hermes.publish_start_session_notification(intent_message.site_id, joke_msg, "Joke_Tuto_APP")
+    hermes.publish_start_session_notification(intent_message.site_id, joke_msg, "SafehouseTuto_APP")
 
 
 
