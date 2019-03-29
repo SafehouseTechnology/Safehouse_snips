@@ -1,9 +1,9 @@
 #!/usr/bin/env python2
 
 #- * -coding: utf - 8 - * -
-
-  from snipsTools
 import requests
+  from snipsTools
+
 import SnipsConfigParser
 from hermes_python.hermes
 import Hermes
